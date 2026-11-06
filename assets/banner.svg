@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" fill="none" role="img" aria-label="Carlos Narváez — Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080b14"/>
+      <stop offset="55%" stop-color="#0f1629"/>
+      <stop offset="100%" stop-color="#180f2e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="70" y1="120" x2="620" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9d6ff"/>
+    </linearGradient>
+    <linearGradient id="roleGrad" x1="70" y1="210" x2="420" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="blur2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+
+  <circle cx="1020" cy="40" r="200" fill="#2f81f7" fill-opacity="0.16" filter="url(#blur1)"/>
+  <circle cx="1210" cy="270" r="170" fill="#a371f7" fill-opacity="0.18" filter="url(#blur2)"/>
+  <circle cx="760" cy="310" r="150" fill="#3fb950" fill-opacity="0.10" filter="url(#blur1)"/>
+
+  <rect x="0" y="0" width="1280" height="4" fill="url(#line)"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="72" y="104" fill="#7d8aa5" font-size="17" font-weight="700" letter-spacing="6">FULL STACK DEVELOPER</text>
+    <text x="70" y="172" fill="url(#nameGrad)" font-size="58" font-weight="800" letter-spacing="-1">Carlos Narváez</text>
+    <text x="72" y="212" fill="url(#roleGrad)" font-size="24" font-weight="600" letter-spacing="0.5">Python · FastAPI · JavaScript · React</text>
+    <text x="72" y="250" fill="#8b98b5" font-size="17" font-weight="500" letter-spacing="0.3">Construyendo APIs y experiencias web limpias y funcionales.</text>
+  </g>
+
+  <g transform="translate(1020 108)">
+    <circle cx="0" cy="0" r="56" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="0" y="12" text-anchor="middle" fill="#e6edf3" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="1">CN</text>
+  </g>
+
+  <g transform="translate(1020 200)">
+    <circle cx="0" cy="0" r="5" fill="#3fb950"/>
+    <text x="16" y="6" fill="#9aa7c2" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">Disponible para proyectos</text>
+  </g>
+
+  <g transform="translate(1020 236)">
+    <text x="0" y="0" fill="#5d6b85" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500">github.com/22CarlosNarvaez</text>
+  </g>
+</svg>
