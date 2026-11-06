@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="Proyectos destacados">
+<g transform="translate(0,0)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#009688"/>
+<circle cx="36" cy="38" r="17" fill="#009688" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#009688" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">F</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">Fast_API</text>
+<text x="70" y="74" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">API REST con Python y FastAPI: CRUD, validación de datos</text><text x="70" y="93" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">y documentación automática.</text>
+<circle cx="30" cy="122" r="4" fill="#009688"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">Python</text>
+</g><g transform="translate(460,0)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#3fb950"/>
+<circle cx="36" cy="38" r="17" fill="#3fb950" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#3fb950" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">T</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">FastAPI_t2</text>
+<text x="530" y="74" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">TechGear: tienda de tecnología con API FastAPI y</text><text x="530" y="93" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">escaparate web en Django.</text>
+<circle cx="30" cy="122" r="4" fill="#3fb950"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">Python</text>
+</g><g transform="translate(0,160)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#61DAFB"/>
+<circle cx="36" cy="38" r="17" fill="#61DAFB" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#61DAFB" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">R</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">React</text>
+<text x="70" y="234" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">PWA con React y Vite: rutas, tema claro/oscuro y</text><text x="70" y="253" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">autenticación simulada.</text>
+<circle cx="30" cy="122" r="4" fill="#61DAFB"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">JavaScript</text>
+</g><g transform="translate(460,160)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#f7df1e"/>
+<circle cx="36" cy="38" r="17" fill="#f7df1e" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#f7df1e" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">P</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">Api-POKEMON</text>
+<text x="530" y="234" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">Consumo de la PokéAPI con JavaScript puro: búsqueda por</text><text x="530" y="253" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">nombre o ID y tarjetas dinámicas.</text>
+<circle cx="30" cy="122" r="4" fill="#f7df1e"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">JavaScript</text>
+</g><g transform="translate(0,320)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#a371f7"/>
+<circle cx="36" cy="38" r="17" fill="#a371f7" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#a371f7" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">A</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">Art-Nova</text>
+<text x="70" y="394" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">Galería de arte responsive con Bootstrap 5:</text><text x="70" y="413" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">exposiciones, artistas y paneles por rol.</text>
+<circle cx="30" cy="122" r="4" fill="#a371f7"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">HTML</text>
+</g><g transform="translate(460,320)">
+<rect x="0.5" y="0.5" width="439" height="139" rx="15" fill="#0d1117" stroke="#21262d"/>
+<rect x="0" y="20" width="5" height="100" rx="2.5" fill="#2f81f7"/>
+<circle cx="36" cy="38" r="17" fill="#2f81f7" fill-opacity="0.14"/>
+<text x="36" y="44" text-anchor="middle" fill="#2f81f7" font-size="17" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">C</text>
+<text x="66" y="44" fill="#e6edf3" font-size="18" font-weight="800" font-family="'Segoe UI',Arial,sans-serif">CSS-Puro</text>
+<text x="530" y="394" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">Layouts modernos con CSS Grid, Flexbox y modelo de caja,</text><text x="530" y="413" fill="#8b949e" font-size="12.5" font-family="'Segoe UI',Arial,sans-serif">sin frameworks.</text>
+<circle cx="30" cy="122" r="4" fill="#2f81f7"/>
+<text x="42" y="126" fill="#8b949e" font-size="12" font-family="'Segoe UI',Arial,sans-serif">CSS</text>
+</g>
+</svg>
