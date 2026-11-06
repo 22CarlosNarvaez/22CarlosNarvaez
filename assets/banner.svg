@@ -1,61 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" fill="none" role="img" aria-label="Carlos Narváez — Full Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" fill="none" role="img" aria-label="Carlos Narváez — Full Stack Developer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080b14"/>
-      <stop offset="55%" stop-color="#0f1629"/>
-      <stop offset="100%" stop-color="#180f2e"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070a12">
+        <animate attributeName="stop-color" values="#070a12;#0b1024;#070a12" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#0e1730">
+        <animate attributeName="stop-color" values="#0e1730;#141033;#0e1730" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a0f33">
+        <animate attributeName="stop-color" values="#1a0f33;#0d1a38;#1a0f33" dur="14s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+
+    <linearGradient id="accent" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#2f81f7"/>
       <stop offset="50%" stop-color="#a371f7"/>
       <stop offset="100%" stop-color="#3fb950"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="70" y1="120" x2="620" y2="200" gradientUnits="userSpaceOnUse">
+
+    <linearGradient id="nameGrad" x1="70" y1="120" x2="640" y2="210" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#c9d6ff"/>
+      <stop offset="60%" stop-color="#dbe6ff"/>
+      <stop offset="100%" stop-color="#a9b8ff"/>
     </linearGradient>
-    <linearGradient id="roleGrad" x1="70" y1="210" x2="420" y2="250" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2f81f7"/>
-      <stop offset="100%" stop-color="#a371f7"/>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="220" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+
     <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="60"/>
+      <feGaussianBlur stdDeviation="55"/>
     </filter>
     <filter id="blur2" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="45"/>
+      <feGaussianBlur stdDeviation="40"/>
     </filter>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M26 0H0V26" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" fill="none"/>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1" fill="none"/>
     </pattern>
+
+    <clipPath id="frame">
+      <rect width="1280" height="340"/>
+    </clipPath>
   </defs>
 
-  <rect width="1280" height="300" fill="url(#bg)"/>
-  <rect width="1280" height="300" fill="url(#grid)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="340" fill="url(#bg)"/>
+    <rect width="1280" height="340" fill="url(#grid)"/>
 
-  <circle cx="1020" cy="40" r="200" fill="#2f81f7" fill-opacity="0.16" filter="url(#blur1)"/>
-  <circle cx="1210" cy="270" r="170" fill="#a371f7" fill-opacity="0.18" filter="url(#blur2)"/>
-  <circle cx="760" cy="310" r="150" fill="#3fb950" fill-opacity="0.10" filter="url(#blur1)"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -22; 0 0" dur="9s" repeatCount="indefinite"/>
+      <circle cx="1030" cy="30" r="190" fill="#2f81f7" fill-opacity="0.18" filter="url(#blur1)"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -18 12; 0 0" dur="11s" repeatCount="indefinite"/>
+      <circle cx="1215" cy="290" r="165" fill="#a371f7" fill-opacity="0.20" filter="url(#blur2)"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 14 -10; 0 0" dur="13s" repeatCount="indefinite"/>
+      <circle cx="760" cy="330" r="150" fill="#3fb950" fill-opacity="0.10" filter="url(#blur1)"/>
+    </g>
 
-  <rect x="0" y="0" width="1280" height="4" fill="url(#line)"/>
+    <rect x="-260" y="0" width="240" height="340" fill="url(#sheen)">
+      <animate attributeName="x" values="-260;1300" dur="7s" repeatCount="indefinite"/>
+    </rect>
 
-  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <text x="72" y="104" fill="#7d8aa5" font-size="17" font-weight="700" letter-spacing="6">FULL STACK DEVELOPER</text>
-    <text x="70" y="172" fill="url(#nameGrad)" font-size="58" font-weight="800" letter-spacing="-1">Carlos Narváez</text>
-    <text x="72" y="212" fill="url(#roleGrad)" font-size="24" font-weight="600" letter-spacing="0.5">Python · FastAPI · JavaScript · React</text>
-    <text x="72" y="250" fill="#8b98b5" font-size="17" font-weight="500" letter-spacing="0.3">Construyendo APIs y experiencias web limpias y funcionales.</text>
-  </g>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
 
-  <g transform="translate(1020 108)">
-    <circle cx="0" cy="0" r="56" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="0" y="12" text-anchor="middle" fill="#e6edf3" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="1">CN</text>
-  </g>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+      <text x="72" y="112" fill="#7f8dab" font-size="16" font-weight="700" letter-spacing="6">FULL STACK DEVELOPER</text>
+      <text x="70" y="184" fill="url(#nameGrad)" font-size="60" font-weight="800" letter-spacing="-1.2">Carlos Narváez</text>
+      <text x="72" y="226" fill="url(#accent)" font-size="25" font-weight="600" letter-spacing="0.4">Python · FastAPI · JavaScript · React</text>
+      <text x="72" y="264" fill="#8b98b5" font-size="17" font-weight="500">Construyo APIs y experiencias web limpias, rápidas y funcionales.</text>
+    </g>
 
-  <g transform="translate(1020 200)">
-    <circle cx="0" cy="0" r="5" fill="#3fb950"/>
-    <text x="16" y="6" fill="#9aa7c2" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">Disponible para proyectos</text>
-  </g>
+    <g transform="translate(72 296)" font-family="'Segoe UI', Arial, sans-serif">
+      <circle cx="0" cy="-5" r="4.5" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="14" y="0" fill="#8b98b5" font-size="14" font-weight="600">Medellín, Colombia</text>
+      <text x="150" y="0" fill="#3d4a63" font-size="14" font-weight="600">·</text>
+      <text x="166" y="0" fill="#8b98b5" font-size="14" font-weight="600">Disponible para proyectos</text>
+    </g>
 
-  <g transform="translate(1020 236)">
-    <text x="0" y="0" fill="#5d6b85" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500">github.com/22CarlosNarvaez</text>
+    <g transform="translate(1035 120)">
+      <circle cx="0" cy="0" r="62" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.12"/>
+      <circle cx="0" cy="0" r="74" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.75">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="13" text-anchor="middle" fill="#eaf0ff" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="1">CN</text>
+    </g>
+
+    <g transform="translate(1035 224)" font-family="'Segoe UI', Arial, sans-serif">
+      <rect x="-86" y="-17" width="172" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="0" y="5" text-anchor="middle" fill="#b9c6e4" font-size="13" font-weight="600">github.com/22CarlosNarvaez</text>
+    </g>
+
+    <rect x="0" y="336" width="1280" height="4" fill="url(#accent)" opacity="0.9"/>
   </g>
 </svg>
